@@ -12,10 +12,24 @@
       img {
         max-width: 100%;
         vertical-aling:top;
+      /*  display: none;*/
       }
+
+     img#responsive{
+        display: none;
+      }
+
+      @media screen and (max-width: 768px){
+        img#responsive{
+          display: block;
+        }
+      }
+
+      </script>
     </style>
   </head>
   <body>
+<img src="jpg/responsive.jpg" alt="" id="responsive">
 <img src="jpg/header.jpg" alt="">
 <img src="jpg/hero.jpg" alt="">
 <img src="jpg/acustica.jpg" alt="">
